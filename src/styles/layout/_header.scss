@@ -1,0 +1,22 @@
+.header {
+    background: $dark;
+    color: $gold;
+    padding: 1rem;
+  
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+    }
+  
+    a {
+      color: $light;
+      text-decoration: none;
+  
+      &:hover {
+        color: $pink;
+      }
+    }
+  }
+  
