@@ -1,0 +1,43 @@
+.tarot-gallery {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+  }
+  
+  .tarot-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid $gold;
+    border-radius: 12px;
+    padding: 1rem;
+    text-decoration: none;
+    color: $light;
+    box-shadow: 0 0 10px $purple;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.05) rotate(-1deg);
+      box-shadow: 0 0 20px $pink;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  
+    h3 {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  }
+  
